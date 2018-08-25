@@ -1,0 +1,106 @@
+*{margin: 0;padding: 0;box-sizing: border-box}
+body,p{margin: 0;}
+body,html,.parent{height: 100%;}
+ul{list-style: none;}
+a{text-decoration: none}
+
+
+.box {
+    background: url("../images/rbg_01.jpg") no-repeat top,
+    url("../images/rbg_03.jpg") no-repeat bottom;
+    background-size: 100% 50%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.head-title{
+    width:1190px ;
+    margin: 0 auto;
+}
+
+.on-content{
+    width: 1190px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+}
+
+.on-content-title{
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    color: #4d4d4d;
+}
+
+.on-content-func{
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    color: #4d4d4d;
+}
+
+.on-content-signin{
+    color:#277de6 ;
+}
+
+.content{
+    width: 1190px;
+    height: 1091px;
+    background: rgb(253,253,253);
+    margin: 0 auto;
+    padding: 80px 80px;
+}
+
+.content-flow{
+    height: 100px;
+}
+
+.flow-ul li{
+    display: inline-block;
+    width:23% ;
+    text-align: center;
+}
+
+.flow-ul span{
+    display: inline-block;
+    background-color: #b3b3b3;
+    height: 30px;
+    width: 30px;
+    color: white;
+    border-radius: 50%;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.flow-info{
+    color:#b3b3b3 ;
+}
+
+.num-wrap{
+    height: 50px;
+}
+
+.active span{
+    background-color: #277de6;
+}
+
+
+.active .flow-info{
+    color: #277de6;
+}
+
+.content-info div{
+    width: 300px;
+    color: #277de6;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+    height: 50px;
+}
+
+.content-form{
+    border-top: #b3b3b3 solid 1px;
+}
