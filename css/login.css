@@ -9,14 +9,13 @@ a{text-decoration: none}
     background-size: 100% 100%;
     height: 100%;
     width: 100%;
-    padding-top: 400px;
+    padding: 10%;
 }
 
 .content{
     height: 479px;
     width: 1097px;
     margin: 0 auto;
-    border: red solid 1px;
 }
 
 .login-box{
@@ -36,15 +35,134 @@ a{text-decoration: none}
     color:#4d4d4d;
 }
 
+ul li{
+    position: relative;
+}
+
 li:nth-of-type(1) input,li:nth-of-type(2) input{
     border:none;
     font-size: 14px;
     width: 300px;
     height: 36px;
+    padding-left: 10px;
+    outline: none;
+}
+
+
+
+li:nth-of-type(3) input{
+    border:none;
+    font-size: 14px;
+    width: 200px;
+    height: 36px;
+    padding-left: 10px;
+    outline: none;
+}
+
+input[type="checkbox"]{
+    margin-right:10px ;
+}
+
+input[type=checkbox]::before{
+    width: 14px;
+    height: 14px;
+}
+
+.ico-img{
+    position: relative;
+    top: 5px;
+}
+
+.code-img{
+    height: 30px;
+    position: absolute;
+    right: 0;
 }
 
 .login-ul li{
     width: 338px;
     border-bottom: #cecece solid 1px;
     height: 38px;
+    margin-bottom: 30px;
+}
+
+.login-form{
+    margin-top: 40px;
+}
+
+.save-label{
+    color: #b1b1b1;
+
+}
+
+.pwd-box{
+    position: relative;
+    margin-bottom: 20px;
+    top:-10px;
+    font-size: 13px;
+}
+
+.forget-pwd{
+    position: absolute;
+    right: 0px;
+}
+
+.forget-pwd a{
+    color: #277de6;
+}
+
+.login-btn{
+    width: 338px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    border: #277de6 solid 1px;
+    font-weight: bold;
+    background: pink;
+    color: #277de6;
+}
+
+.login-btn-box{
+     margin-bottom: 30px;
+}
+
+.signup-btn-box{
+    text-align: center;
+}
+
+.signup-btn{
+    display: inline-block;
+    width: 100px;
+    margin: 0 auto;
+
+}
+
+.signup-btn a{
+    color: #b1b1b1;
+}
+
+.sys-info{
+    height: 479px;
+    width:580px;
+    position: absolute;
+}
+
+.info-content{
+    position: absolute;
+    top: 45%;
+    left:10%;
+    transform: translateY(-50%);
+    width: 427px;
+    height: 93px;
+    color: #384c71;
+    font-size: 38px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.first-line{
+    display: block;
+    margin-bottom: 10px;
 }
